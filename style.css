@@ -304,9 +304,12 @@ margin: 20px 0;
   color: #fff;
   padding: 60px 20px;
   text-align: center;
-  border-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   max-width: 1040px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 #contact h2 {
@@ -379,6 +382,41 @@ margin: 20px 0;
   border-radius: 8px;
   margin-top: 20px;
 }
+
+/*Footer section*/
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.social-links a {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
 
 /* Desktop size ends here*/
 
